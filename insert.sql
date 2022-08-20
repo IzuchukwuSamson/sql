@@ -18,3 +18,8 @@ INSERT INTO employee VALUES (104, 'Kelly', 'Kapoor', '1980-02-05', 'F', 55000, 1
 INSERT INTO employee VALUES (105, 'Stanley', 'Hudson', '1958-02-19', 'M', 69000, 102, 2);
 INSERT INTO employee VALUES (106, 'Josh', 'Porter', '1969-09-05', 'M', 78000, 100, 3);
 
+
+-- 
+INSERT INTO `posts` (`post_id`, `post_category_id`, `post_title`, `post_author`, `post_user`, `post_date`, `post_image`, `post_content`, `post_tags`, `post_comment_count`, `post_status`, `post_views_count`) 
+VALUES ('1', '1', 'How to be a good developer', 'Izuchukwu Samson', 'izusam', '2022-08-19', 'IMAGE', 'To be a good developer, you have to practice constantly everyday', 'developer, code', '2', 'draft', '3');
+

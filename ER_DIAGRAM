@@ -1,0 +1,19 @@
+Entity:
+An object we want to model and store information about. Eg, the database name(Student)
+
+Attributes:
+Specific pieces of information about an entity. Eg, Student(name, grade, GPA, )
+
+Primary key:
+An attribute(s) that uniquely identify an entry in the database table.
+Eg, Student(student_id(PK), GPA)
+PK stands for Primary Key
+
+Composite attribute:
+An attribute that can be broken up to into sub-attributes
+Eg, Student(student_id(PK), name(fname, lname), grade, GPA, )
+fname & lname are sub-attributes of name
+
+Multi-valued attribute - An attribute that can have more than one value
+
+Derived attribute - An attribute that can be derived from other attributes
