@@ -23,3 +23,6 @@ INSERT INTO employee VALUES (106, 'Josh', 'Porter', '1969-09-05', 'M', 78000, 10
 INSERT INTO `posts` (`post_id`, `post_category_id`, `post_title`, `post_author`, `post_user`, `post_date`, `post_image`, `post_content`, `post_tags`, `post_comment_count`, `post_status`, `post_views_count`) 
 VALUES ('1', '1', 'How to be a good developer', 'Izuchukwu Samson', 'izusam', '2022-08-19', 'IMAGE', 'To be a good developer, you have to practice constantly everyday', 'developer, code', '2', 'draft', '3');
 
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
+y,9ztmedBEX75n%
